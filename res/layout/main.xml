@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/main_text"
+    android:textSize="10pt"
+    android:text="Please wear headphone and adjust phase and amplitude so that the noise is lower."
+    />
+
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:textSize="14pt"
+    android:id="@+id/main_phase"
+    android:text="Phase"
+    />
+<SeekBar 
+    android:id="@+id/angleseek"
+    android:layout_width ="fill_parent"
+    android:layout_height="wrap_content"
+    android:max="360"
+    android:progress="180"
+    android:secondaryProgress="180" />
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:textSize="14pt"
+    android:id="@+id/main_amp"
+    android:text="Amp"
+    />
+<SeekBar 
+    android:id="@+id/ampseek"
+    android:layout_width ="fill_parent"
+    android:layout_height="wrap_content"
+    android:max="100"
+    android:progress="100"
+    android:secondaryProgress="100" />
+
+
+</LinearLayout>
+
