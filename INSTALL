@@ -1,5 +1,7 @@
 Use ant to compile the project
 $ android update project --name NoiseCanceller --target [YOUR TARGET ID HERE] --path .
+$ cd jni
+$ ndk-build
 $ ant debug
 Then use 
 $ adb install bin/NoiseCanceller-debug.apk
